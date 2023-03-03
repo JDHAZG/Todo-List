@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('./font.woff2') format('woff2');
+  }
+  .iconfont {
+    font-family: 'iconfont' !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .icon-checkbox:before {
+    content: '\e619';
+  }
+  .icon-delete:before {
+    content: '\e621';
+  }
+  
+  .title {
+    color: #4f89ff;
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 35px;
+    text-align: center;
+  }
